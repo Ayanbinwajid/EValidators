@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iValidate</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+               <img src="./orago.logo.jpg" alt="logo" style="height: 40px; width:70px;"> 
+               <p>alidate</p>
+            </div>
+            <ul>
+                <li class="border">Home</li>
+                
+                <li class="border">Contact</li>
+
+                
+            </ul>
+        </nav>
+    </header>
+   
+    <main>
+           <div class="form">
+            <h1>ENTER YOUR EMAIL TO VALIDATE</h1>
+
+            <form class="f1" action="/submit" method="post">
+                <!-- Text input for username -->
+                <label for="EMAIL">E-mail:</label>
+                <input class="input"placeholder="enter your email here" type="type" id="username" name="username" required>
+                <br><br>
+            
+                
+            
+                <!-- Submit button -->
+            
+                <input id="submitBtn" class="btn" type="submit" value="Submit">
+              
+              </form>
+
+           </div> 
+
+
+
+
+            <div  class="result">
+                <h2>Your Result :</h2>
+             <div id="resultCont">
+            </div>  
+            
+            </div>
+
+
+
+
+
+
+    </main>
+
+
+
+   <footer>
+    ©All rights reserverd | EValidate.COM 2023 |
+   </footer>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
